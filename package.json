@@ -1,0 +1,23 @@
+{
+  "name": "workexercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "request.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec babel-node nasaApi.js",
+    "serve": "json-server --watch db2.json"
+  },
+  "keywords": [],
+  "author": "Eddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5"
+  }
+}
