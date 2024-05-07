@@ -16,7 +16,7 @@ https://api.nasa.gov/neo/rest/v1/feed?start_date=START_DATE&end_date=END_DATE&ap
 | :-------- | :------- | :------------------------- |
 | `api_key` | `DEMO_KEY` | **Required**. Your API key |
 | `start_date` | `YYYY-MM-DD` | `Starting date for asteroid search`|
-| `end_date` | `string` | `Ending date for asteroid search` |
+| `end_date` | `YYYY-MM-DD` | `Ending date for asteroid search` |
 
 
 
